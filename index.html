@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>mobi-slider</title>
+	<link rel="stylesheet" href="src/swipe.css">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		img{
+			max-width: 100%;
+		}
+	</style>
+</head>
+<body>
+
+	<section class="swipe" id="swipe">
+		<div class="swipe-wrap">
+			<div>
+				<img src="images/photo1.png">
+			</div>
+			<div>
+				<img src="images/photo2.png">
+			</div>
+			<div>
+				<img src="images/photo3.jpg">
+			</div>
+			<div>
+				<img src="images/photo4.jpg">
+			</div>
+		</div>
+	</section>
+
+	<script src="src/jquery.min.js"></script>
+	<script src="src/swipe.js"></script>
+	<script>
+		$(function(){
+			$('#swipe').Swipe({
+				dots:true
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "mobi-slider",
+  "version": "1.0.0",
+  "description": "swipe.js的jQuery&Zepto插件封装，添加分页指示功能",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "noop",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-uglify": "^2.0.0"
+  }
+}
